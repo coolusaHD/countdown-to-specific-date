@@ -23,13 +23,13 @@ For example, if you want to count down to 2050-01-01 00:00:00, you can add the f
 
 You can customize the countdown by modifying the following query parameters in the URL:
 
-- `textColor`: The color of the countdown text (e.g., `?textColor=red` or `?textColor=#ff0000`)
-- `backgroundColor`: The background color of the countdown text (e.g., `?backgroundColor=black` or `?backgroundColor=#000000`)
+**Note**: The color parameters should be in hexadecimal format **without** the `#` symbol.
+
+- `textColor`: The color of the countdown text (`?textColor=ff0000`)
+- `backgroundColor`: The background color of the countdown text ( `?backgroundColor=000000`)
 
 You can also customize the text after the digits by modifying the following query parameters in the URL:
 
-- `yearText`: The text after the year digits (e.g., `?yearText=years`)
-- `monthText`: The text after the month digits (e.g., `?monthText=months`)
 - `dayText`: The text after the day digits (e.g., `?dayText=days`)
 - `hourText`: The text after the hour digits (e.g., `?hourText=hours`)
 - `minuteText`: The text after the minute digits (e.g., `?minuteText=minutes`)
@@ -37,7 +37,7 @@ You can also customize the text after the digits by modifying the following quer
 
 ## Examples
 
-- [Countdown to 2050-01-01 00:00:00](https://coolusahd.github.io/countdown-to-specific-date?year=2050&month=1&day=1&hour=0&minute=0&second=0&textColor=red&backgroundColor=black&yearText=years&monthText=months&dayText=days&hourText=hours&minuteText=minutes&secondText=seconds)
+- [Countdown to 2050-01-01 00:00:00](https://coolusahd.github.io/countdown-to-specific-date?year=2050&month=1&day=1&hour=0&minute=0&second=0&textColor=fff&backgroundColor=000&dayText=days&hourText=hours&minuteText=minutes&secondText=seconds)
 
 ## License
 
