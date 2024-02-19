@@ -1,0 +1,18 @@
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions: write-all
+
+name: 🏗️ CI
+jobs:
+  validatePrTitle:
+    name: 🔎 Validate PR Title
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔎 Check PR Title
+        uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  

@@ -1,0 +1,49 @@
+# Contributing Guidelines
+
+Thank you for considering contributing to this project! We appreciate your time and effort.
+
+## Table of Contents
+
+- [Contributing Guidelines](#contributing-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [Code of Conduct](#code-of-conduct)
+  - [How Can I Contribute?](#how-can-i-contribute)
+    - [Reporting Bugs](#reporting-bugs)
+    - [Suggesting Enhancements](#suggesting-enhancements)
+    - [Pull Requests](#pull-requests)
+  - [Styleguides](#styleguides)
+  - [License](#license)
+
+## Code of Conduct
+
+Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a positive and inclusive environment for everyone.
+
+## How Can I Contribute?
+
+### Reporting Bugs
+
+If you encounter any bugs or issues, please [open an issue](https://github.com/coolusaHD/countdown-to-specific-date/issues) and provide detailed information about the problem. Include steps to reproduce, expected behavior, and any relevant error messages.
+
+### Suggesting Enhancements
+
+We welcome suggestions for new features or improvements. Please [open an issue](https://github.com/coolusaHD/countdown-to-specific-date/issues) and describe your idea or enhancement request. Be sure to provide as much detail as possible.
+
+### Pull Requests
+
+We encourage you to contribute to this project by submitting pull requests. To do so, follow these steps:
+
+1. Fork the repository and create your branch from `main`.
+2. Make your changes and ensure they follow the project's coding conventions.
+3. Write clear and concise commit messages.
+4. Test your changes thoroughly.
+5. Submit a pull request, explaining the changes you made and why they should be merged.
+
+We will review your pull request and provide feedback as soon as possible.
+
+## Styleguides
+
+Please follow the project's coding style and conventions when making contributions. This includes code formatting, naming conventions, and documentation guidelines. Refer to the project's documentation or `CONTRIBUTING` for specific guidelines.
+
+## License
+
+By contributing to this project, you agree that your contributions will be licensed under the [LICENSE](LICENSE) file of the project.
