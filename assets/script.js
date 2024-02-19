@@ -74,8 +74,10 @@ document.getElementById('secondsText').innerHTML = secondText;
 var textColor = urlParams.get('textColor');
 var backgroundColor = urlParams.get('backgroundColor');
 
-document.getElementById('bg').style.color = textColor;
-document.getElementById('bg').style.backgroundColor = backgroundColor;
+console.log('Colors:', textColor, backgroundColor);
+
+document.getElementById('bg').style.color = `#${textColor}`;
+document.getElementById('bg').style.backgroundColor = `#${backgroundColor}`;
 
 // Update the count down every 1 second
 var x = setInterval(function () {
